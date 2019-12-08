@@ -1,0 +1,131 @@
+h2{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.h-information{
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:5em;
+}
+#info{
+    margin-top:160px;
+    display: block;
+    position: relative;
+    margin:auto;
+    box-shadow: 0 0 100px rgba(0,0,0,.2);
+    background: #fff;
+    text-decoration: none;
+}
+.despe-img::before{
+    display:block;
+    padding-top:50%;
+    content:'';
+}
+.info-container{
+    background-image:url(https://pbs.twimg.com/media/ELBrO-SUUAApG8c?format=jpg&name=small);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+}
+.info-contents{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: rgba(255,255,255,0.5);
+}
+#twitter{
+    margin-top:4em;
+    margin-bottom:8em;
+}
+ @media(min-width: 800px){
+#insta{
+    width: 50%;
+    float:left;
+}
+}
+@media(min-width: 800px){
+    #twitter{
+        width: 50%;
+        float:left;        
+}
+}
+
+#insta{
+    margin:0 auto;
+    margin-top:4em;
+}
+.insta-img{
+    width:60%;
+    margin:0 auto;
+}
+.insta-text{
+    margin: 0 auto;
+    text-align: justify;
+}
+.twitter-timeline{
+    background-color: rgba(255,255,255,0.5);
+}
+.sns-title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:3em;
+    color:white;
+    margin-bottom:0%;
+}
+.trans-insta{
+    background-color: rgba(255,255,255,0.5);
+    margin:0 auto;
+    width:60%;
+    margin:0 auto;
+}
+.botan-insta{
+    color:white;
+    border-radius: 7px;/*角丸に*/
+    position: relative;
+    display: inline-block;
+    height:auto;/*高さ*/
+    width:60%;/*幅*/
+    text-align: center;/*中身を中央寄せ*/
+    font-size: 1.2em;/*文字のサイズ*/
+    background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+    background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+    overflow: hidden;/*はみ出た部分を隠す*/
+    margin-top:10px;
+    margin-bottom:15px;
+}
+.a-insta{
+    color:white;
+}
+.message{
+    display:block!important;
+    background-image:url(https://pbs.twimg.com/media/ELBrO-PUYAE9smT?format=jpg&name=small);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding:5em;
+}
+.message h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:3em;
+    color:white;
+}
+.p-message{
+    display:block;
+    width:80%;
+    margin:0 auto;
+    background-color: rgba(255,255,255,0.5);
+    font-size:1.2em;
+}

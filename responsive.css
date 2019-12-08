@@ -1,0 +1,15 @@
+@media(max-width:800px){
+    .info-container{
+        flex-direction: column
+    }
+    #twitter{
+        margin-bottom:1em;
+    }
+    .trans-insta{
+        margin-bottom:5em;
+    }
+    .p-heading{
+        font-size:1em;
+    }
+
+}
